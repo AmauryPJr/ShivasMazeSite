@@ -1,0 +1,28 @@
+﻿drop database siteshivasmaze;
+
+create database SiteShivasMaze;
+
+use SiteShivasMaze;
+
+create table DadosUsuario(
+	id_usu int not null auto_increment primary key,
+	nome_usu varchar(50) not null,
+	sobrenome_usu varchar(50) not null,
+	dtnasc_usu date not null,
+	genero_usu char(3) not null,
+
+	constraint ch_01 check (genero_usu in("h", "m", "nb"))
+);
+
+create table Avaliacao(
+	id_aval int not null auto_increment primary key,
+	id_usu int not null,
+	notaJogabilidade tinyint not null,
+	notaControles tinyint not null,
+	notaMapa tinyint not null,
+	notaPersonagens tinyint not null,
+	notaGrafico tinyint not null,
+	notaRecomendacao tinyint not null,
+
+	foreign key(id_usu) references DadosUsuario(id_usu)
+);

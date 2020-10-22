@@ -1,0 +1,127 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+    }
+
+    ul {
+        padding: 0px!important;
+
+    }
+    
+    .menu-principal {
+    width: 100%;
+    background-color: #000000;
+    height: 70px;
+
+    }
+    
+    main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+    
+    }
+    
+    .logo {
+    float: left;
+    padding: 10px;
+    width: 70%;
+    
+    }
+    
+    .redes-socias ul li {
+    margin-left: 25px;
+    display: inline-block;
+    list-style: none;
+    
+    
+    }
+    
+    .redes-socias {
+    width: 25%;
+    float: right;
+    
+    }
+
+    .header-2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+
+    }
+
+    .menu-urls {
+        height: 80px;
+        border-bottom: 3px solid #efefef;
+    }
+
+    .menu ul li{
+        display: inline-block;
+        color: #964747;
+        margin-left: 15px;
+        height: 50px;
+
+    }
+
+    .menu ul li:hover {
+        border-bottom: 3px solid #964747;
+
+    }
+
+    .menu ul li a :hover {
+        color: #964747;
+
+    }
+    
+    .menu ul li a{
+        color: #a19c9c;
+        text-decoration: none;
+        font-size: 18px;
+        text-transform: uppercase;
+        
+    }
+
+    .menu {
+        width: 70%;
+        float: left;
+
+    }
+
+    .texto-destaque {
+        text-align: center;
+    }
+
+    .texto-destaque h1 {
+        color: #818181;
+        font-size: 30px;
+        text-transform: uppercase;
+        
+    }
+
+    .texto-destaque p {
+        color: #9a9a9a;
+        font-size: 15px;
+
+    }
+
+    .rodape p {
+        color: #9a9a9a;
+        font-size: 15px;
+    }
+
+    .rodape {
+        height: auto;
+        background: white;
+        clear:both;	
+        text-align: center;
+    }
+
+    .rodape ul {
+        display: inline-block;
+        margin-left: 15px;
+        height: 50px;
+
+    }
