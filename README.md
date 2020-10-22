@@ -1,5 +1,3 @@
-#Shiva's Maze
-
 Shiva’s Maze é um jogo eletrônico baseado no clássico dos anos 1980,
 “Pac-Man”, desenvolvido por Toru Iwatani. Esse remake visa criar um ambiente
 mais confortável ao público infanto-juvenil devido aos seus personagens
